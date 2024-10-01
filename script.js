@@ -27,7 +27,7 @@ function performSearch() {
                 event.preventDefault(); // Mencegah aksi default tautan
                 const imdbID = $(this).data('imdbid'); // Perbaiki pengambilan data-imdbid
                 $.ajax({
-                    url: 'http://www.omdbapi.com/?apikey=437432c&i=' + imdbID,
+                    url: 'https://www.omdbapi.com/?apikey=437432c&i=' + imdbID,
                     success: m => {
                         const movieDetail = showMovieDetail(m);
                         $('.modal-body').html(movieDetail);
