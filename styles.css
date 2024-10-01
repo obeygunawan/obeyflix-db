@@ -1,0 +1,126 @@
+/* Global Font Settings */
+      body {
+        background-color: #141414;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #e50914;
+      }
+
+      .input-group {
+        max-width: 600px;
+        margin-bottom: 30px;
+      }
+
+      .form-control {
+        border: 2px solid #e50914;
+        background-color: #333;
+        color: white;
+        border-radius: 25px;
+        padding: 10px 20px;
+      }
+
+      .form-control:focus {
+        box-shadow: none;
+        border-color: #e50914;
+      }
+
+      .btn-primary {
+        background-color: #e50914;
+        border: none;
+        border-radius: 25px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+      }
+
+      .btn-primary:hover {
+        background-color: #f6121d;
+        transform: scale(1.05);
+      }
+
+      /* Movie Card Styling */
+      .card {
+        background-color: #222;
+        border: none;
+        border-radius: 15px;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        overflow: hidden;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+      }
+
+      .card-title {
+        color: white;
+        font-size: 1.25rem;
+        font-weight: 700;
+      }
+
+      .card-subtitle {
+        color: #b3b3b3;
+        font-size: 0.9rem;
+      }
+
+      /* Poster Hover Effect */
+      .card-img-top {
+        border-radius: 15px 15px 0 0;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .card-img-top:hover {
+        transform: scale(1.1);
+      }
+
+      .show-details {
+        background-color: #e50914;
+        border: none;
+        color: white;
+        border-radius: 25px;
+        padding: 8px 16px;
+        transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+      }
+
+      .show-details:hover {
+        background-color: #f6121d;
+        transform: scale(1.05);
+      }
+
+      /* Modal Styling */
+      .modal-content {
+        background-color: #181818;
+        color: white;
+        border-radius: 10px;
+      }
+
+      .modal-header {
+        border-bottom: 1px solid #333;
+      }
+
+      .modal-footer {
+        border-top: 1px solid #333;
+      }
+
+      .btn-secondary {
+        background-color: #333;
+        border: none;
+        border-radius: 25px;
+        padding: 8px 16px;
+      }
+
+      .btn-secondary:hover {
+        background-color: #444;
+      }
+
+      /* Responsive Layout */
+      @media (max-width: 768px) {
+        .card-img-top {
+          height: 300px;
+          object-fit: cover;
+        }
+      }
