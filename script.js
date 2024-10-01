@@ -13,7 +13,7 @@ $('.input-keyword').on('keypress', function (event) {
 // Fungsi untuk melakukan pencarian
 function performSearch() {
     $.ajax({
-        url: 'http://www.omdbapi.com/?apikey=437432c&s=' + $('.input-keyword').val(),
+        url: 'https://www.omdbapi.com/?apikey=437432c&s=' + $('.input-keyword').val(),
         success: results => {
             const movies = results.Search;
             let cards = ''; 
@@ -77,3 +77,5 @@ function showMovieDetail(m) {
         </div>
     </div>`;
 }
+
+
