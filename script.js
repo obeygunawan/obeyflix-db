@@ -52,7 +52,7 @@ searchButton.addEventListener('click', function () {
 // Menangani penekanan tombol Enter pada kolom pencarian
 const inputKeyword = document.querySelector('.input-keyword');
 inputKeyword.addEventListener('keypress', function (event) {
-    if (event.which === 13) { // Cek jika tombol Enter ditekan
+    if (event.key === 13) { // Cek jika tombol Enter ditekan
         performSearch();
     }
 });
