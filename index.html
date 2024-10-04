@@ -8,8 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-
     <div class="container">
+        <!-- Header Section -->
         <div class="row mt-5">
             <div class="col text-start">
                 <h1>ObeyFlix</h1>
@@ -26,11 +26,10 @@
             </div>
         </div>
 
-        <!-- Row for the movie cards -->
+        <!-- Movie Cards Container -->
         <div class="row movie-container">
-            <!-- Cards will be dynamically inserted here -->
+            <!-- Movie cards will be dynamically added here -->
         </div>
-
     </div>
 
     <!-- Modal for Movie Details -->
@@ -38,7 +37,7 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="movieDetailModalLabel">Modal title</h1>
+                    <h5 class="modal-title" id="movieDetailModalLabel">Movie Details</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -51,6 +50,7 @@
         </div>
     </div>
 
+    <!-- Bootstrap JS, jQuery, and Custom Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="script.js"></script>
